@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+* {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+i {
+  color: #777;
+}
+.home {
+  height: 100vh;
+  background-image: url(../image/events-heavenly-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.home-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+
+.sidenav {
+  white-space: nowrap;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+.sidenav .close {
+  /* color: rgba(214, 46, 51, 0.4); */
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+.sidenav a i:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+.home-content {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+.home-content h1 {
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+}
+.home-content p {
+  color: white;
+}
+.home-content span {
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.section-one .item {
+  text-align: center;
+  background-color: #e68285;
+  padding: 20px;
+  margin: 100px 20px;
+  color: white;
+  width: 50% !important;
+
+}
+.section-one .item h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.section-one .item .inter {
+  display: none;
+  background-color: #777;
+  padding: 10px;
+}
+.section-tow {
+  background-image: url(../image/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 330px;
+}
+.count-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+.count-text {
+  padding: 100px 0;
+}
+.section-tow .row .item {
+  border: 1px solid #fff;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+}
+.form .area {
+  height: 200px;
+}
+.row .icon i {
+  margin: 10px 10px;
+  border: 1px solid #777;
+  padding: 7px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 50px;
+}
+.row .icon i:hover {
+  background-color: #d62e33;
+}
+.text-icon i {
+  margin-right: 20px;
+}
+.text-color a {
+  color: rgba(255, 0, 0, 0.466);
+  text-decoration: none;
+}
+#contact-us {
+  margin-top: 60px !important;
+}
+#contact-us .container {
+  padding: 70px 20px !important;
+}
+.container .head {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
